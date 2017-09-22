@@ -17,6 +17,24 @@ header {
  position: fixed;
 }
 
+div {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  float: left;
+  width: 46%;
+  margin-right: 2%;
+  margin-left: 2%;
+}
+
+article {
+  margin-left: 670px;
+  padding: 30px;
+  width: 46%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
 
 h1 {
   float: left;
@@ -43,7 +61,7 @@ nav li {
 }
 
 #cougar {
-  padding: 100px;
+  padding-top: 100px;
   clear: both;
   background: #379CB2;
 }
@@ -56,21 +74,12 @@ nav li {
   background: #82E8FF;
 }
 
-article {
-  background-color: #fff;
-  width: 55%;
-  margin: 50px auto;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-  padding: 1em 2em 1em;
-}
-
 h2, section > p {
   text-align: center;
 }
 
 section {
+  float: left;
   padding: 10px;
 }
 img {
